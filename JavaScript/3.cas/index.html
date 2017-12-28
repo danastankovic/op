@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <button type="button" name="button" onclick="funkcija()">Klik preko atributa</button>
+    <hr color="red"/>
+
+    <img src="paprika.jpg" alt="PAPRIKA" width="400px" id="slika"  onmouseover="prelazakMisa()" onmouseout="izlazak()"/>
+<span>broj prelazaka <strong id="strong">0</strong></span>
+
+<hr color="red"/>
+
+
+<input type="text" id="polje" onkeyup="prlazak()"/>
+<p id="tag"></p>
+<hr color="red"/>
+<button type="button" name="button" onclick="displayData()">Kliko je sati?</button>
+
+
+<hr color="red"/>
+
+  <!-- <h3>Digitron</h3>
+
+  <form action="#" method="GET" id="myForm" name="myForm">
+    <label for="">X &nbsp;=</label><br/>
+    <input type="text" id="x"/><br/>
+    <label for="">Y &nbsp;=</label><br/>
+    <input type="text" id="y"/><br/>
+    <input type="button" id="button" value="SABERI" onclick="saberi()"></button>
+<br/>
+<br/>
+<hr color="orange" width="20%" align="left"/>
+<br/>
+<label for="">REZULTAT &nbsp;=</label><br/>
+<input type="text" id="zbir"/><br/>
+
+
+
+  </form> -->
+
+  <hr color="red"/>
+
+  <h3>DIGITRON</h3>
+  <br/>
+  <br/>
+  <table border="3px">
+    <form action="#" method="GET" id="myForm" name="myForm">
+<tr>
+  <td colspan="2">UNESITE BROJ</td>
+  <td colspan="2">
+    <input type="text" id="prviBroj"/>
+  </td>
+
+</tr>
+
+<tr>
+  <td colspan="2">UNESITE BROJ</td>
+  <td colspan="2">
+    <input type="text" id="drugiBroj"/>
+  </td>
+
+</tr>
+<tr>
+  <td>
+    <button type="button"  onclick="saberi()">+</button>
+  </td>
+  <td>
+    <button type="button" onclick="oduzmi()">-</button>
+  </td>
+  <td>
+    <button type="button" onclick="pomnozi()">*</button>
+  </td>
+  <td>
+    <button type="button" onclick="podeli()">/</button>
+  </td>
+</tr>
+
+
+
+</table>
+
+<hr color="orange" width="30%" align="left"/>
+<h4>
+  REZULTAT
+</h4>
+<input type="text" id="rezultat"/><br/>
+    </form>
+
+
+
+
+  </body>
+  <script type="text/javascript" src="dogadjaji.js">
+
+  </script>
+</html>

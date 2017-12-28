@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1509811295 source:c:\users\danica\desktop\op\vezba\main.c
+	<stdio.h>
+	<stdlib.h>
+

@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1510256572 source:c:\users\danica\desktop\op\switch\main.c
+	<stdio.h>
+	<stdlib.h>
+
